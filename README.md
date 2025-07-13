@@ -109,10 +109,6 @@ FIREBASE_PROJECT_ID=your-project-id
 FIREBASE_API_KEY=your-api-key
 ```
 
-## 📱 Screenshots
-
-[Add screenshots of your app here]
-
 ## 🚀 Deployment
 
 ### Android
@@ -148,10 +144,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Firebase](https://firebase.google.com/) for the backend services
 - [Google Fonts](https://fonts.google.com/) for beautiful typography
 - [Material Design](https://material.io/) for design guidelines
-
-## 📞 Support
-
-If you have any questions or need help, please open an issue on GitHub or contact us at [your-email@example.com].
 
 ---
 
