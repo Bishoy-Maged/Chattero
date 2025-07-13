@@ -39,6 +39,7 @@ A modern, real-time chat application built with Flutter and Firebase.
    ```
 
 3. **Firebase Setup**
+   - Follow the detailed setup guide in [SETUP.md](SETUP.md)
    - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
    - Enable Authentication (Email/Password)
    - Enable Firestore Database
@@ -47,6 +48,7 @@ A modern, real-time chat application built with Flutter and Firebase.
    - Download and add the configuration files:
      - `google-services.json` to `android/app/`
      - `GoogleService-Info.plist` to `ios/Runner/`
+   - Copy `lib/firebase_options_template.dart` to `lib/firebase_options.dart` and configure with your Firebase settings
 
 4. **Run the application**
    ```bash
@@ -84,8 +86,9 @@ lib/
 
 ### Firebase Configuration
 
-1. **Authentication**: Enable Email/Password sign-in method
-2. **Firestore**: Create a collection named `messages` with the following structure:
+1. **Follow the Setup Guide**: See [SETUP.md](SETUP.md) for detailed Firebase configuration instructions
+2. **Authentication**: Enable Email/Password sign-in method
+3. **Firestore**: Create a collection named `messages` with the following structure:
    ```json
    {
      "text": "string",
@@ -95,8 +98,8 @@ lib/
      "userImage": "string"
    }
    ```
-3. **Storage**: Set up rules for image uploads
-4. **Messaging**: Configure FCM for push notifications
+4. **Storage**: Set up rules for image uploads
+5. **Messaging**: Configure FCM for push notifications
 
 ### Environment Variables
 
